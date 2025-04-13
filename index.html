@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/services.css">
+    <link rel="stylesheet" href="src/styles/team.css">
+    <link rel="stylesheet" href="src/styles/form.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Integral Clinic</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-hexagon-nodes" id="nav_logo"> Integral Clinic</i>
+
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#set_services">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#team">Equipe</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#form-container">Fórmulário</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Solicitar consulta
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+
+            <button class="btn-default">
+                Solicitar consulta
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Sua Clinica de
+                    <span>Saúde</span>
+                </h1>
+                <p class="description">
+                    A Integral Clinic é uma clínica de saúde que oferece diversos serviços para cuidar da sua saúde e
+                    bem-estar.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Saiba Mais
+                    </a>
+
+                    <a href="tel:+555555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+
+                        </button>
+                        Entre em contato por telefone
+                    </a>
+
+                </div>
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/img-principal2.png" alt="Doutor">
+            </div>
+
+        </section>
+
+        <section id="set_services">
+            <h2 class="section-title">Serviços que Oferecemos</h2>
+
+            <button class="carousel-btn prev-btn">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="service-card">
+                        <img src="src/images/Atendimento_medico.png" alt="Atendimento médico" class="service-image">
+                        <h3 class="service-title">Atendimento Médico</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Atendimento médico com profissionais qualificados e especializados em diversas áreas da
+                                saúde.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/exame_laboratorial.webp" alt="Exames laboratoriais" class="service-image">
+                        <h3 class="service-title">Exames Laboratoriais</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Realização de exames laboratoriais para diagnóstico e acompanhamento de doenças.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/exame_imagem.jpeg" alt="Exames de imagem" class="service-image">
+                        <h3 class="service-title">Exames de Imagem</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Realização de exames de imagem para diagnóstico e acompanhamento de doenças.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/vacinacao.jpeg" alt="Vacinação e Imunização" class="service-image">
+                        <h3 class="service-title">Vacinação e Imunização</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Realização de vacinação e imunização para prevenção de doenças.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/check-up.jpg" alt="Saúde Preventiva e Check-ups" class="service-image">
+                        <h3 class="service-title">Saúde Preventiva e Check-ups</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Realização de check-ups e acompanhamento da saúde.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/exame-do-trabalho.jpg" alt="Medicina do Trabalho" class="service-image">
+                        <h3 class="service-title">Medicina do Trabalho</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Realização de exames ocupacionais e acompanhamento da saúde do trabalhador.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/telemedicina.jpg" alt="Telemedicina" class="service-image">
+                        <h3 class="service-title">Telemedicina</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Atendimento médico online.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="src/images/atendimento-medico-domiciliar.jpg" alt="Atendimento Domiciliar"
+                            class="service-image">
+                        <h3 class="service-title">Atendimento Domiciliar</h3>
+                        <div class="div-description">
+                            <span class="service-description">
+                                Atendimento médico online.
+                            </span>
+                        </div>
+                        <button class="btn-default">Agendar</button>
+                    </div>
+                </div>
+
+                <section id="team">
+                    <h2 class="section-title">Nossos profissionais</h2>
+
+                    <div id="professionals">
+
+                        <div class="professional-card">
+                            <img src="src/images/Leo.png" class="professional-image" alt="Davi Brito">
+                            <h3 class="professional-name">Léo Renam Pinheiro</h3>
+                            <p class="professional-role">Médico Cirurgião</p>
+                        </div>
+
+                        <div class="professional-card">
+                            <img src="src/images/Davi.jpg" class="professional-image" alt="Davi Brito">
+                            <h3 class="professional-name">Davi Brito</h3>
+                            <p class="professional-role">Médico Ortopedista</p>
+                        </div>
+
+                        <div class="professional-card">
+                            <img src="src/images/Andreia.jpg" class="professional-image" alt="Andreia Cardoso Leal">
+                            <h3 class="professional-name">Andreia Cardoso Leal</h3>
+                            <p class="professional-role">Médica Dermatologista</p>
+                        </div>
+
+                        <div class="professional-card">
+                            <img src="src/images/Algusto.png" class="professional-image" alt="Algusto Alves Glover">
+                            <h3 class="professional-name">Algusto Alves Glover</h3>
+                            <p class="professional-role">Médico Cardiologista</p>
+                        </div>
+
+                        <div class="professional-card">
+                            <img src="src/images/Lourenzo.jpg" class="professional-image" alt="Lourenzo Timotié Alves">
+                            <h3 class="professional-name">Lourenzo Timotié Alves</h3>
+                            <p class="professional-role">Médico Pediatra</p>
+                        </div>
+
+
+                    </div>
+                </section>
+                <div id="form-container">
+                    <div class="form-mensage">
+                        <h2>Quer Saber Mais Sobre a Empresa?</h2>
+                        <p>
+                            Estamos comprometidos em oferecer o melhor cuidado para você e sua família.
+                            Preencha o formulário de inscrição abaixo para receber informações exclusivas sobre nossos
+                            serviços,
+                            novidades, promoções e dicas de saúde diretamente no seu e-mail.
+                            Fique por dentro de tudo o que a Integral Clinic pode fazer por você!
+                        </p>
+                    </div>
+
+                    <div class="form">
+                        <div class="form-header">
+                            <h2>Me inscrever</h2>
+                        </div>
+                        <form class="form-body">
+                            <div class="form-control">
+                                <lable for="client-name">Nome Completo</lable>
+                                <input type="text" id="client-name" placeholder="Digite seu nome completo" />
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Mensagem de erro</small>
+                            </div>
+
+                            <div class="form-control">
+                                <lable for="email">E-mail</lable>
+                                <input type="text" id="email" placeholder="Digite seu e-mail" />
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Mensagem de erro</small>
+                            </div>
+
+                            <div class="form-control">
+                                <lable for="city">Cidade</lable>
+                                <input type="text" id="city" placeholder="Informe sua cidade (Ex: Belo Horizonte)" />
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Mensagem de erro</small>
+                            </div>
+
+                            <div class="form-control">
+                                <lable for="country">Estado</lable>
+                                <input type="text" id="country" placeholder="Informe o estado (Ex: Minas Gerais)" />
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Mensagem de erro</small>
+                            </div>
+
+                            <button type="submit" class="btn-default">Enviar</button>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

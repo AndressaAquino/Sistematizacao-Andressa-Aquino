@@ -1,0 +1,147 @@
+.form-body{
+    width: 60%;
+}
+
+
+#form-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.form-mensage{
+    width: 50%;
+    padding-left: 100px;
+}
+
+#form-title {
+    display: flex;
+    width: 100%;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 50px; 
+    box-sizing: border-box;
+}
+
+
+#form-description {
+    width: 50%; 
+    padding-right: 30px; 
+}
+
+.form-mensage h2{
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.form-mensage p{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    width: 40%; 
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.form-header h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+
+.form-control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.form-control i {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+    color: #e74c3c;
+    visibility: hidden;
+
+}
+
+.form-control small {
+    display: flex;
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 2px;
+    align-items: center;
+    visibility: hidden;
+}
+
+
+button {
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.error i {
+    visibility: visible;
+    color: #e74c3c;
+    display: inline-block;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}

@@ -1,0 +1,51 @@
+#team {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#professionals {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: space-between; 
+}
+
+.professional-card {
+    flex: 1 1 calc(16% - 10px); 
+    max-width: 250px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.professional-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+
+.professional-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    border: 2px solid #3e7996; 
+    object-fit: cover; 
+}
+
+.professional-name {
+    font-size: 0.9rem; 
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.professional-role {
+    font-size: 0.8rem; 
+    color: #666;
+    margin-bottom: 0;
+}

@@ -1,4 +1,4 @@
-# 🏥 Landing Page - Clínica Saúde Viva
+# 🏥 Landing Page - Integral Clinic
 
 Este projeto é uma landing page estática desenvolvida para apresentar os principais serviços e equipe de uma clínica fictícia. A proposta faz parte do Projeto 01, visando melhorar a experiência dos pacientes por meio de soluções tecnológicas.
 

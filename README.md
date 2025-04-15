@@ -7,7 +7,7 @@ Este projeto é uma landing page estática desenvolvida para apresentar os princ
 - Exibição dos principais serviços da clínica com imagens e descrições
 - Apresentação da equipe fictícia com fotos e cargos
 - Formulário estático para que usuários possam demonstrar interesse em saber mais
-- Página responsiva com estrutura semântica (uso de cabeçalhos H1 e H2)
+- Página dois níveis de cabeçalhos (H1 e H2)
 
 ## 🔗 Acesse o projeto
 

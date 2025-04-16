@@ -2,7 +2,7 @@
 
 Este projeto é uma landing page estática desenvolvida para apresentar os principais serviços e equipe de uma clínica fictícia. A proposta faz parte do Projeto 01, visando melhorar a experiência dos pacientes por meio de soluções tecnológicas.
 
-## 💡 Funcionalidades
+## 💡 Funcionalidades - Projeto 01
 
 - Exibição dos principais serviços da clínica com imagens e descrições
 - Apresentação da equipe fictícia com fotos e cargos

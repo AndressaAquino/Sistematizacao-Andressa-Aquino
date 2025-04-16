@@ -18,9 +18,9 @@ Este projeto é uma landing page estática desenvolvida para apresentar os princ
   [https://github.com/AndressaAquino/Sistematizacao-Andressa-Aquino](https://github.com/AndressaAquino/Sistematizacao-Andressa-Aquino)
 
 - **Vídeo de Apresentação:**  
-  [Cole aqui o link do vídeo (YouTube ou Google Drive)](https://...)
+  [https://www.youtube.com/watch?v=PrZlp6IIFNk)](https://www.youtube.com/watch?v=PrZlp6IIFNk)
 
-## 🚀 Instruções para colocar em operação
+## 🚀 Instruções para colocar o projeto em operação
 
 ### ✔️ Opção 1: Executar localmente
 

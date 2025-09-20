@@ -2,12 +2,12 @@
 
 Este projeto é uma landing page estática desenvolvida para apresentar os principais serviços e equipe de uma clínica fictícia. A proposta faz parte do Projeto 01, visando melhorar a experiência dos pacientes por meio de soluções tecnológicas.
 
-## 💡 Funcionalidades
+## 💡 Funcionalidades - Projeto 01
 
 - Exibição dos principais serviços da clínica com imagens e descrições
 - Apresentação da equipe fictícia com fotos e cargos
 - Formulário estático para que usuários possam demonstrar interesse em saber mais
-- Página responsiva com estrutura semântica (uso de cabeçalhos H1 e H2)
+- Página dois níveis de cabeçalhos (H1 e H2)
 
 ## 🔗 Acesse o projeto
 
@@ -18,9 +18,9 @@ Este projeto é uma landing page estática desenvolvida para apresentar os princ
   [https://github.com/AndressaAquino/Sistematizacao-Andressa-Aquino](https://github.com/AndressaAquino/Sistematizacao-Andressa-Aquino)
 
 - **Vídeo de Apresentação:**  
-  [Cole aqui o link do vídeo (YouTube ou Google Drive)](https://...)
+  [https://www.youtube.com/watch?v=PrZlp6IIFNk)](https://www.youtube.com/watch?v=PrZlp6IIFNk)
 
-## 🚀 Instruções para colocar em operação
+## 🚀 Instruções para colocar o projeto em operação
 
 ### ✔️ Opção 1: Executar localmente
 
